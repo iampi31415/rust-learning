@@ -1,7 +1,7 @@
 # Slice layout
 
 It's not uncommon for people on [the forum](https://users.rust-lang.org/)
-to ask why it's conventional to have `&[T]` as an argument insteaed of
+to ask why it's conventional to have `&[T]` as an argument instead of
 `&Vec<T>`, or to ask about the layout of slices more generally.  Or to
 ask analogous questions about `&str` and `String`, et cetera.
 
@@ -21,7 +21,7 @@ This is the case not just for casual material, but for
 and other technical material.  You just have to figure out which one or
 ones they are specifically talking about from context.
 
-With that out of the way, let me intoduce some terminology for this page:
+With that out of the way, let me introduce some terminology for this page:
 
 - A slice, `[T]`, is a series of `T` in contiguous memory (layed out one after
 another, with proper alignment). The length is only known at run time; we say
